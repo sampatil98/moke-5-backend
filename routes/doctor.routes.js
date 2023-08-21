@@ -56,7 +56,7 @@ doctorRouter.post("/create",async(req,res)=>{
          await data.save();
 
         res.status(200).send({
-            isError:true,
+            isError:false,
             message:"appointment created successfully"
         })
         

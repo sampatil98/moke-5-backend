@@ -22,6 +22,10 @@ const doctorSchema= mongoose.Schema({
         type:String,
         require:true
     },
+    date:{
+        type:String,
+        require:true
+    },
     slot:{
         type:Number,
         require:true
